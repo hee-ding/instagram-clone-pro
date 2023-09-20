@@ -1,0 +1,53 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    encoding:
+      charset: utf-8
+      enabled: true
+    
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+      
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/photogram?serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true&useSSL=false
+    username: cos
+    password: cos1234
+    
+  jpa:
+    open-in-view: true
+    hibernate:
+      ddl-auto: update #update-데이터 insert하고 다시실행해도 데이터가 남아 있음
+                       #create-데이터를 insert 하고 서버를 재실행하면 이전 데이터가사라지고 새로운 데이터가 들어감
+                       #none-프로덕션 모드로 가면 스키마 변경이 되지 않게 함
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true
+      
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 20MB
+
+  security:
+    user:
+      name: test
+      password: 1234   
+      
+    oauth2:
+      client:
+        registration:
+          facebook:
+            client-id: 1009106426895334
+            client-secret: ffdd0d851bcd7a7edeeb51e4ef21103b
+            scope:
+            - public_profile
+            - email
+          
+     
+file:
+  path: /Users/hee/Desktop/web/workspace/spingbootwork/upload/
