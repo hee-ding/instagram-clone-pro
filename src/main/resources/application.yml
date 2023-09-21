@@ -42,8 +42,8 @@ spring:
       client:
         registration:
           facebook:
-            client-id: 1009106426895334
-            client-secret: ffdd0d851bcd7a7edeeb51e4ef21103b
+            client-id: 
+            client-secret: 
             scope:
             - public_profile
             - email
