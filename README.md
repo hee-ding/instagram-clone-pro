@@ -4,10 +4,9 @@
 ## 🗂️ サイト概要
 <br>
 
-Instagram Clone Codingは、Spring BootとJPAを利用してInstagramサービスを実装したプロジェクトです。
+Instagram Clone Codingは、Spring BootとJPAを利用して、Instagramサービスを実装したプロジェクトです。
 <br><br>
-
-![스크린샷 2023-09-24 오후 11 08 30](https://github.com/hee-ding/instagram-clone-pro/assets/122540359/a9473cbb-4b56-4be4-8c2b-0728b9bb0f29)
+<img width="1050" alt="스크린샷 2023-09-25 오전 6 51 44" src="https://github.com/hee-ding/instagram-clone-pro/assets/122540359/473be7d3-57f9-4162-9974-ee2ec442d301">
 <br>
 <div align="center">
   
@@ -36,12 +35,14 @@ Instagram Clone Codingは、Spring BootとJPAを利用してInstagramサービ�
 
 <br><br>
 
-## ✏️ 実装機能（＊アップデート中）
+## ✏️ 実装機能
 <details>
   <summary><strong>会員</strong></summary>
-  
-<img width="1050" alt="스크린샷 2023-09-25 오전 6 51 44" src="https://github.com/hee-ding/instagram-clone-pro/assets/122540359/8f27787e-a5bc-457b-8f5e-e90a4c11297c">
-
+ <div align="center"> 
+   
+![회원](https://github.com/hee-ding/instagram-clone-pro/assets/122540359/6625e714-10ec-47da-95bb-2bc9c617910e)
+ </div>
+ 
 - 会員登録
 - Login 
 - Logout
@@ -51,7 +52,10 @@ Instagram Clone Codingは、Spring BootとJPAを利用してInstagramサービ�
 <details>
   <summary><strong>フォロー</strong></summary>
   
-<img width="1050" alt="스크린샷 2023-09-25 오전 6 51 44" src="https://github.com/hee-ding/instagram-clone-pro/assets/122540359/8f27787e-a5bc-457b-8f5e-e90a4c11297c">
+ <div align="center"> 
+   
+![팔로우](https://github.com/hee-ding/instagram-clone-pro/assets/122540359/39591c8c-08b3-4ee8-82e6-7979f783ccec)
+ </div>
 
 - フォロー
 - フォロー中
@@ -60,18 +64,26 @@ Instagram Clone Codingは、Spring BootとJPAを利用してInstagramサービ�
 <br><br>
 <details>
   <summary><strong>投稿</strong></summary>
-  
-<img width="1050" alt="스크린샷 2023-09-25 오전 6 51 44" src="https://github.com/hee-ding/instagram-clone-pro/assets/122540359/8f27787e-a5bc-457b-8f5e-e90a4c11297c">
+
+ <div align="center"> 
+   
+![게시물](https://github.com/hee-ding/instagram-clone-pro/assets/122540359/70141d11-6e5b-4e6a-9846-076356802244)
+ </div>
 
 - ユーザーイメージ登録
 - 投稿（イメージアップロード）
 
 <br><br><br>
-<img width="1050" alt="스크린샷 2023-09-25 오전 6 51 44" src="https://github.com/hee-ding/instagram-clone-pro/assets/122540359/8f27787e-a5bc-457b-8f5e-e90a4c11297c">
+
+ <div align="center"> 
+   
+![스크롤링](https://github.com/hee-ding/instagram-clone-pro/assets/122540359/7400756a-6bf4-43e7-bd7e-cd2532f5ae1f)
+ </div>
 
 - 投稿Listページング（人気ページ）
 - いいね！
-- コメント
+- コメント登録
+- コメント削除
 </details>
 <br><br>
 
